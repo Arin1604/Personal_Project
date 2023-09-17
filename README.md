@@ -23,9 +23,7 @@ Overview:
     
     5)I delegate the function of generating Mobs to MobGenerator. It also handles the mob timeline. It is here that
     the mobs are generated and added to the mobArrayList. It is here that the mob guns are generated.
-
-
-
+    
 Design Choices:
 
 Data Structures:
