@@ -1,21 +1,26 @@
 # Personal_Project
 
 [CHECK USER GUIDE FOR DETAILED DESCRIPTION OF GAME]
+
 C(s15)ONTRA README
 
 Overview:
     1) My app class has the start method that sets up the scene and gets the stage to show up. It is here that I
     instantiate the pane organizer.
+    
     2) Pane Organizer is my top-level graphics class. I instantiate my border pane, my Hbox, and other layout elements.
     I also added a rectangle that I use to animate the lava in the pane organizer. I use helper methods to achieve my
     goal of making the lava animated. It is here that I instantiate my game class.
+    
     3) My game class is the top-level logic class. It contains the most crucial interactions between the bullets,
     mobs, players, and other central classes. It is here that I instantiate the Player and the Player's Gun. This class
     also keeps track of the score and player health using two labels. It also checks if the game is over.
     Terrain Generator, which is central to building the infinite terrain, is also instantiated here.
+    
     4) I delegated the function of creating the Terrain Blocks and managing them in an ArrayList to
     Terrain Generator. Additionally, it also handles the important interactions between the player and the terrain
     blocks. It also creates an instance of mob generator and uses it to create mobs and space them out.
+    
     5)I delegate the function of generating Mobs to MobGenerator. It also handles the mob timeline. It is here that
     the mobs are generated and added to the mobArrayList. It is here that the mob guns are generated.
 
